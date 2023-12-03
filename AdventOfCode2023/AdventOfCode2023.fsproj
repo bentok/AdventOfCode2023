@@ -6,7 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Helpers.fs"/>
         <Compile Include="Day1.fs" />
+        <Compile Include="Day2.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
@@ -14,10 +16,12 @@
         <None Include="Input\Day1Input.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <Content Include="Input\Day2Input.txt" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="bin\Debug\net8.0\Input\" />
+      <Content Include="bin\Debug\net8.0\Input\Day2Input.txt" />
+      <Compile Include="Helpers.fs" />
     </ItemGroup>
 
 </Project>

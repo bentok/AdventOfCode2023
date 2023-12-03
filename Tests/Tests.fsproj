@@ -28,18 +28,18 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Content Include="bin\Debug\net8.0\Input\Day1Input.txt" />
+        <Content Include="bin\Debug\net8.0\Input\Day1TestInput.txt" />
         <None Include="Input\Day1TestInput.txt">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <Content Include="Input\Day2Input.txt" />
+        <Content Include="Input\Day2TestInput1.txt" />
         <Content Include="Input\Day1TestInput2.txt" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\AdventOfCode2023\AdventOfCode2023.fsproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="bin\Debug\net8.0\Input\" />
     </ItemGroup>
 
 </Project>
